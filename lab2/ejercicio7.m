@@ -1,4 +1,3 @@
- % tres condiciones : que exista A, que sea cuadrada y que n sea mayor o igual a dos.
  function Z= ejercicio7(A)
     A
     B =  magic(size(A,1));        %creamos un cuadrado magico del mismo tamaño que A (en este caso tomamos # filas)
@@ -9,7 +8,3 @@
     G =  [F(:,1) ; F(:,2)]  ;     %creando un vector columna con dos columnas del vector F
     Z =  G';                      %creando e imprimiendo matriz fila con G transpuesta
 endfunction
-
-
-
-

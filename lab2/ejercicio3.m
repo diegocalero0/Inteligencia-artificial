@@ -31,3 +31,4 @@ hold off
 
 %pintar una leyenda descriptiva para cada color 
 legend("y=(sqrt(x)-3)", "y=exp(x/40)");
+
