@@ -132,7 +132,7 @@ fprintf("\n");
 fprintf('\nTheta encontrado por descenso por el gradiente: \n');
 fprintf('%12.6f\n', theta); fflush(stdout);
 fprintf("\n");
-fprintf("Presione enter para continuar: ")
+fprintf("Presione enter para continuar: ");
 pause
 fprintf("\n");
 

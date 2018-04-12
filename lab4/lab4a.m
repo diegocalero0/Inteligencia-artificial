@@ -146,7 +146,7 @@ fprintf("Puede tardar un poco ..."); fflush(stdout);
 
 fprintf('\n# de iteracion      Costo(J)\n'); fflush(stdout);
 fprintf("%9d  %18.10f\n", [0 JI]');
-indSel=[1:10 length(J_historia)-9:length(J_historia)];
+indSel=[1:9 length(J_historia)-9:length(J_historia)];
 fprintf("%9d  %18.10f\n", [indSel'  J_historia(indSel)]');
 fprintf("\n"); fflush(stdout);
 
