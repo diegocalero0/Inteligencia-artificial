@@ -9,7 +9,7 @@ for i=1:2
 endfor
 x=[1 xn]
 h=sigmoide(theta'*x');
-fprintf("Prediccion de probabilidad de que le sea recomendable estudiar ingenieria de sistemas y computacion: %3.1f\n  ",h);
+fprintf("Prediccion de probabilidad de que le sea recomendable estudiar ingenieria de sistemas y computacion: %1.4f\n  ",h);
 continuar= input("Continuar (s/n):", "s")
 until(continuar=='n')
 
