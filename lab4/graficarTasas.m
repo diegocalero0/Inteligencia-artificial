@@ -4,7 +4,7 @@ function [] = graficarTasas(X, y)
   xlabel("iteracion");
   ylabel("funcion costo");
   
-  #{
+  
   [theta arr] = descensoGradiente(X, y, 1000, 50); 
   hold off
   plot(arr);
@@ -32,7 +32,7 @@ function [] = graficarTasas(X, y)
   [theta arr] = descensoGradiente(X, y, 1, 50); 
   hold on
   plot(arr);
-  #}
+  
   
   [theta arr] = descensoGradiente(X, y, 0.3, 50); 
   hold on
