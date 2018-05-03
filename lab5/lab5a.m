@@ -20,7 +20,7 @@ alpha=1;
 % Numero de iteraciones
 num_iter=100000;
 % Parametro de regularizacion
-lambda=0.00;
+lambda=0.16;
 % Grado del polinomio (degree) 
 d=4; 
 
@@ -221,7 +221,7 @@ fprintf("\n... Ejecutando el algoritmo (puede tardar un poco)...\n\n");
 fflush(stdout);
 
 thetaI = zeros(n+1, 1); 
-hI=_prediccionesConjunto(X,thetaI);
+hI=prediccionesConjunto(X,thetaI);
 JI = costo(y, hI, thetaI, lambda);
 [theta J_historia] = descensoGradiente(X, y, alpha, num_iter, lambda);
 

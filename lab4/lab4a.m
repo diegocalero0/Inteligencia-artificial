@@ -130,8 +130,8 @@ pause
 % ================ DESCENSO POR EL GRADIENTE ============================
 fprintf("\n\n-----------------------------------------\n");
 fprintf("\nDESCENSO POR EL GRADIENTE\n\n"); fflush(stdout);
-alpha=0.30;  
-num_iter=50; 
+alpha=30;  
+num_iter=350; 
 thetaProv=[0; 0; 0];
 hProv=prediccionesConjunto(X,thetaProv);
 JI=costo(y,hProv);
